@@ -8,9 +8,9 @@ def loop_message_five_times (string)
 end
 end
 
-def loop_message_five_times (string)
+def loop_message_n_times (string, n)
   index = 0
-  while index < 5
+  while index < n
   puts string
   index += 1 
 end
